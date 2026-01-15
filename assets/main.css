@@ -24,7 +24,8 @@ color: var(--maincolor);
 .hero{
     background-image: url(../assets/image/public/hero-bg.jpg);
     background-repeat: no-repeat;
- 
-    
     background-size: cover;
+}
+.hero a{
+    color:var(--maincolor);
 }
