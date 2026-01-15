@@ -1,67 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./assets/main.css">
-  </head>
-  <body>
-    <header class="header">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/main.css" />
+</head>
 
-        <nav class="navbar navbar-expand-lg bg-black position-fixed w-100 ">
-          <div class="container-fluid">
-            <a class="navbar-brand text-uppercase fw-bolder" href="#">Osaka</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">Price</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">Clients</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">Blog </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase fw-semibold" href="#">Contact</a>
-                </li>
-              </ul>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-black position-fixed w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fw-bolder" href="#">Osaka</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
     </header>
     <main>
-        <section class="hero vh-100 ">
+        <section class="hero vh-100">
             <div class="container d-flex align-items-center h-100">
                 <div class="hero-content">
                     <h1 class="text-white fw-bolder fs-1">Robin Steel</h1>
@@ -70,36 +62,171 @@
                 </div>
             </div>
         </section>
-        <section class="about  p-5 vh-100">
+        <section class="about p-5 vh-100">
             <div class="title text-center">
                 <h2 class="fs-1 fw-bolder text-uppercase">About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
-            
+
             <div class="container">
                 <div class="row">
-
                     <div class="image-about col-md-4">
-                        <img src="./assets/image/about/about.jpg" class="img-fluid" alt="">
+                        <img src="./assets/image/about/about.jpg" class="img-fluid" alt="" />
                     </div>
-                    <div class="about-content  col-md-7 offset-1 d-flex flex-column justify-content-center">
+                    <div class="about-content col-md-7 offset-1 d-flex flex-column justify-content-center">
                         <h3>Robin Steel</h3>
-                        <h4 class="text__maincolor">Creative UI/UX Designer, Developer.</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>E-mail: <a href="mailto:info@yourdomain.com" class="text-black fw-bold">info@yourdomain.com</a> </p>
-
+                        <h4 class="text__maincolor">
+                            Creative UI/UX Designer, Developer.
+                        </h4>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            E-mail:
+                            <a href="mailto:info@yourdomain.com" class="text-black fw-bold">info@yourdomain.com</a>
+                        </p>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="portfolio py-5">
+            <div class="title text-center">
+                <h2 class="fs-1 fw-bolder text-uppercase">Portfolio</h2>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <ul class="nav nav-tabs justify-content-center mb-5" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="All-tab" data-bs-toggle="tab" data-bs-target="#All-tab-pane"
+                        type="button" role="tab" aria-controls="All-tab-pane" aria-selected="true">
+                        All
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Dev-tab" data-bs-toggle="tab" data-bs-target="#Dev-tab-pane"
+                        type="button" role="tab" aria-controls="Dev-tab-pane" aria-selected="false">
+                        Dev
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Web-tab" data-bs-toggle="tab" data-bs-target="#Web-tab-pane"
+                        type="button" role="tab" aria-controls="Web-tab-pane" aria-selected="false">
+                        Web
+                    </button>
+                </li>
 
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Design-tab" data-bs-toggle="tab" data-bs-target="#Design-tab-pane"
+                        type="button" role="tab" aria-controls="Design-tab-pane" aria-selected="false">
+                        Design
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="All-tab-pane" role="tabpanel" aria-labelledby="All-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio//Creative Design.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/App Design.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Branding.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Web Develop.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/3D Model.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Develop.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="tab-pane fade" id="Dev-tab-pane" role="tabpanel" aria-labelledby="Dev-tab" tabindex="0">
+                     <div class="container">
+                        <div class="row g-3">
+                            
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Web Develop.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Web-tab-pane" role="tabpanel" aria-labelledby="Web-tab" tabindex="0">
+                     <div class="container">
+                        <div class="row g-3">
+                           
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Develop.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Design-tab-pane" role="tabpanel" aria-labelledby="WDesign-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row g-3">
+                           
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Creative Design.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/App Design.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/Branding.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-image">
+                                    <img src="./assets/image/portfolio/3D Model.jpg" class="img-fluid" alt="" />
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
