@@ -29,3 +29,9 @@ color: var(--maincolor);
 .hero a{
     color:var(--maincolor);
 }
+.about{
+background-image: url(../assets/image/about/imageye___-_imgi_23_light_dot.jpg);
+}
+.text__maincolor{
+    color: var(--maincolor);
+}
