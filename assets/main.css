@@ -47,3 +47,51 @@ background-image: url(../assets/image/about/imageye___-_imgi_23_light_dot.jpg);
 .portfolio .nav-tabs{
     border: none;
 }
+
+
+
+
+.Testimonials img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  position: absolute;
+  top: -50px;
+  left: 46%;
+ 
+}
+.Testimonials .step{
+    
+    background-color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color:#666;
+     width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 15px;
+    
+}
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.carousel{
+    border: #f4f4f4 solid 2px;
+   overflow: visible ; 
+}
+
+ .carousel-item{
+overflow: visible;
+}
+
+.item{
+    overflow: visible;
+}
+.title{
+    margin-bottom: 100px;
+}
